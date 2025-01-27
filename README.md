@@ -17,10 +17,12 @@ Before we start, ensure you have the necessary libraries installed. You can inst
 `pip install pandas scikit-learn matplotlib`
 
 # Step 2: Loading and Exploring the Data
-Every machine learning project starts with data. We'll use the famous *Iris dataset*, which is included in `scikit-learn`.
+Every machine learning project starts with data. We'll use the famous **Iris dataset**, which is included in `scikit-learn`.
 This dataset contains measurements of 150 iris flowers from three different species. 
 
 Cool, huh? :grin:
+
+![Alt text](https:github.com/rb-thompson/machine-learning-basics/blob/main/project_files/print-head.png "printed data head")
 
 ## Explanation:
 
