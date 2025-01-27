@@ -158,6 +158,8 @@ prediction = knn.predict(new_data)
 print("Predicted species:", iris.target_names[prediction][0])
 ```
 
+![Alt text](https://raw.githubusercontent.com/rb-thompson/machine-learning-basics/refs/heads/main/project_files/prediction.png "predict new data graphic")
+
 ## Explanation
 
 - We provide new measurements for an iris flower.
