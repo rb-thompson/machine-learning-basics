@@ -1,4 +1,4 @@
-# Implement a Machine Learning Pipeline
+## Implement a Machine Learning Pipeline
 
 What You'll Learn
 - Data Preprocessing: Preparing your data for machine learning
@@ -16,5 +16,14 @@ Before we start, ensure you have the necessary libraries installed. You can inst
 
 `pip install pandas scikit-learn matplotlib`
 
+# Step 2: Loading and Exploring the Data
+Every machine learning project starts with data. We'll use the famous *Iris dataset*, which is included in `scikit-learn`.
+This dataset contains measurements of 150 iris flowers from three different species. 
 
+Cool, huh? :grin:
 
+## Explanation:
+
+- `iris.data` contains the features (sepal length, sepal width, petal length, petal width).
+- `iris.target` contains the labels (species of iris).
+- We use `pandas` to organize the data into a tabular format.
