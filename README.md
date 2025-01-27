@@ -22,7 +22,7 @@ This dataset contains measurements of 150 iris flowers from three different spec
 
 Cool, huh? :grin:
 
-![Alt text](https:github.com/rb-thompson/machine-learning-basics/blob/main/project_files/print-head.png "printed data head")
+![Alt text](https://raw.githubusercontent.com/rb-thompson/machine-learning-basics/refs/heads/main/project_files/print-head.png "printed data head")
 
 ## Explanation:
 
