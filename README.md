@@ -29,3 +29,36 @@ Cool, huh? :grin:
 - `iris.data` contains the features (sepal length, sepal width, petal length, petal width).
 - `iris.target` contains the labels (species of iris).
 - We use `pandas` to organize the data into a tabular format.
+
+# Step 3: Data Processing
+Before training a model, we need to preprocess the data. This involves:
+
+1. Splitting the data into features (`X`) and labels (`Y`).
+2. Splitting the data into training and testing sets.
+
+![Alt text](https://raw.githubusercontent.com/rb-thompson/machine-learning-basics/refs/heads/main/project_files/test-train-split.jpg "test-train-split method graphic")
+
+## Explanation:
+
+- `train_test_split` randomly splits the data into training and testing sets.
+- `random_state=42` ensures repoducibility (you'll get the same split every time).
+
+# Step 4: Training a Machine Learning Model
+Now, let's train a simple machine learning model. We'll use the **k-Nearest Neighbors (k-NN) algorithm, 
+which is easy to understand and implement.
+
+## Explanation:
+
+- `KNeighborsClassifier` is a simple algorithm that classifies data points based on the majority class among their `k` nearest neighbors.
+- `fit` trains the model using the training data.
+
+# Step 5: Evaluating a Model
+After training, we need to evaluate the model's performance on the test data. We'll use **accuracy** as our metric.
+
+![Alt text](https://raw.githubusercontent.com/rb-thompson/machine-learning-basics/refs/heads/main/project_files/accuracy-score.png "calculated model accuracy score graphic")
+
+## Explanation:
+
+- `predict` generates predictions for the test data.
+- `accuracy_score` compares the predictions to the true labels and calculates the proportion of correct predictions. 
+
