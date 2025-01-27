@@ -36,7 +36,7 @@ Before training a model, we need to preprocess the data. This involves:
 1. Splitting the data into features (`X`) and labels (`Y`).
 2. Splitting the data into training and testing sets.
 
-![Alt text](https://raw.githubusercontent.com/rb-thompson/machine-learning-basics/refs/heads/main/project_files/test-train-split.jpg "test-train-split method graphic")
+![Alt text](https://raw.githubusercontent.com/rb-thompson/machine-learning-basics/refs/heads/main/project_files/train-test-split.jpg "test-train-split method graphic")
 
 ## Explanation:
 
